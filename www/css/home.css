@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    
+ 
+  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+        
+        
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+div.wrapper {
+  margin: auto;
+  width: 350px;
+}
+
+p {
+  font-family: georgia;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+nav.vertical {
+  padding-top: 5%;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+  text-align: center;
+}
+
+  nav.vertical > ul {
+    list-style-type: none;
+    
+      
+  }
+
+    nav.vertical > ul > li {
+      display: block;
+
+        
+    }
+
+      nav.vertical > ul > li > a {
+        background-color: rgb(157, 34, 60);
+        background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: -moz-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
+        color: rgb(255,255,255);
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(0,0,0,.1);
+        text-transform: uppercase;
+        transition: all .1s ease;
+        text-decoration: none;
+        padding : 9% 3% 9% 3%;
+        border-radius: 10px;
+        
+      }
+
+         nav.vertical > ul > li > a > img{
+            height : 20%;
+            width : 30%;
+         }
+
+        
+          nav.vertical > ul > li > div {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+          }
+ 
+          nav.vertical > ul > li > div > ul {
+            list-style-type: none;
+          }
+
+
+            nav.vertical > ul > li > div > ul > li > a {
+             background-color: rgba(255, 255, 255, 0.78);
+             border-bottom: 1px solid rgba(0,0,0,.05);
+             color: #333331;
+             display: block;
+             font-size: 2 rem;
+             padding : 9% 3% 9% 3%;
+             text-decoration: none;
+             transition: all 0.15s linear;
+             text-align: center;
+             font-weight: 500;
+             border-radius: 10px;
+            }
+
+
+.beginText {
+    width : 80%;
+    height : 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top : 5%;
+}
+
+.confetti {
+    height:100%;
+    width:100%;
+    z-index : -1;
+    position : fixed;
+}
+

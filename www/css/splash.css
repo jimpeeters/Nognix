@@ -1,0 +1,6 @@
+body, html {
+    height : 100%;
+    background-color: #372155;
+    background: url('../img/splashscreen.png')no-repeat center center;
+    background-size:100% 100%;
+}
